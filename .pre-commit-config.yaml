@@ -1,0 +1,12 @@
+repos:
+-   repo: https://github.com/jorisroovers/gitlint
+    rev: v0.17.0
+    hooks:
+    - id: gitlint
+-   repo: https://github.com/DavidAnson/markdownlint-cli2
+    rev: v0.4.0
+    hooks:
+    - id: markdownlint-cli2
+
+default_language_version:
+    python: python3.8.10

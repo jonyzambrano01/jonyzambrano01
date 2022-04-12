@@ -1,0 +1,20 @@
+# Structure:
+#
+# --- Start
+# ------------------------------------------------
+# <type>: <description> - no more than 50 chars (check line above)
+# - Type: check type options on the bottom and .gitlint config file
+# - Description: summary, imperative, if it is solving an issue it must start
+#   with fix #<issue number>
+# --- Blank line between tittle and optional body
+# ----------------------------------------------------------------------
+# [optional body] - no more than 72 chars (check line above)
+# - Explain *what* and *why* (not *how*)
+# --- end
+#
+# Types:
+# - feature: new feature
+# - fix: any bug fix you put in place
+# - data: change on the data
+# - docs: changes on documentation
+# - refactor: neither fixes a bug nor adds a feature
